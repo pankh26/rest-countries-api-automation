@@ -23,7 +23,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -44,7 +43,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -65,7 +63,6 @@ public class CodeTest extends BaseTest {
                     pathParam("countryCode", code).
                     get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                     then().
-                    log().all().
                     assertThat().
                     statusCode(HttpStatus.SC_OK).
                     extract().
@@ -86,7 +83,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -107,7 +103,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -128,7 +123,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -149,7 +143,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -170,7 +163,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -187,7 +179,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -204,7 +195,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -221,7 +211,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -238,7 +227,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_BAD_REQUEST).
                 extract().
@@ -255,7 +243,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_BAD_REQUEST).
                 extract().
@@ -272,7 +259,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_BAD_REQUEST).
                 extract().
@@ -289,7 +275,6 @@ public class CodeTest extends BaseTest {
                 pathParam("countryCode", code).
                 get(SEARCH_BY_COUNTRY_CODE + "/{countryCode}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_BAD_REQUEST).
                 extract().

@@ -26,8 +26,7 @@ public class BaseTest {
         //Using Request spec builder
         RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder().
                 setBaseUri(BASE_URI).
-                setContentType(CONTENT_TYPE_JSON).
-                log(LogDetail.ALL);
+                setContentType(CONTENT_TYPE_JSON);
         requestSpecification = requestSpecBuilder.build();
     }
 

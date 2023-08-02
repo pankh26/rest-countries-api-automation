@@ -24,7 +24,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK);
     }
@@ -39,7 +38,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK);
     }
@@ -54,7 +52,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -75,7 +72,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -100,7 +96,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -126,7 +121,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -151,7 +145,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -176,7 +169,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_OK).
                 extract().
@@ -201,7 +193,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -218,7 +209,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -235,7 +225,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -252,7 +241,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -269,7 +257,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -286,7 +273,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
@@ -303,7 +289,6 @@ public class NameTest extends BaseTest {
                 pathParam("countryName", name).
                 get(SEARCH_BY_COUNTRY_NAME + "/{countryName}").
                 then().
-                log().all().
                 assertThat().
                 statusCode(HttpStatus.SC_NOT_FOUND).
                 extract().
