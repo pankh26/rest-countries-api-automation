@@ -36,7 +36,9 @@ The command will produce jar files in the /target folder
 
 Running the tests using Main class 
 ---
-Use the 'with-dependencies.jar' file which includes all required classes and dependencies
+Use the 'with-dependencies.jar' file which includes all required classes and dependencies. 
+
+Navigate to /target folder and execute below command:
 ```bash
 java -jar path\to\jar\file. jar
 ```
